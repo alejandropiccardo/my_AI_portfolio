@@ -1,3 +1,19 @@
+---
+title: "ML proyect Cardiac arrest"
+description: "logistic regresion ML model. in a cardic arrest dataset"
+date: "2024-10-07"
+banner:
+  src: "../../images/What-Is-Cardiac-Arrest.jpg"
+  alt: "First Markdown Post"
+  caption: 'Photo by <u><a href="https://batonrougeclinic.com/what-is-cardiac-arrest/">https://batonrougeclinic.com/what-is-cardiac-arrest/</a></u>'
+categories:
+  - "Machine Learning"
+  - "Regresion Logistica"
+keywords:
+  - "ML"
+  - "Machine Learning"
+---
+
 Cardiac arrest
 
 Objetivo:
@@ -43,6 +59,6 @@ Este modelo requiere que todos los predictores sean numéricos, no necesitamos c
 Resultados:
 
 Una vez entrenado el modelo usando cardiac-training podemos ver los coeficientes para c/u de los predictores:
-![Texto alternativo](coeficientes.png "predicciones")
+![Texto alternativo](coeficientes.png "coeficientes")
 Aplicando el modelo a cardiac-scoring podemos ver si el modelo supone un paro cardiaco o no:
 ![Texto alternativo](./predicciones.png "predicciones")
