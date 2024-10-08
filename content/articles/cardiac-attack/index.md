@@ -14,15 +14,15 @@ keywords:
   - "Machine Learning"
 ---
 
-Cardiac arrest
+# Cardiac arrest
 
-Objetivo:
+## Objetivo:
 
 El objetivo de este problema es entrenar un modelo capaz de predecir un siguiente paro cardiaco en pacientes que ya han sufrido uno.
 
 Disponemos de dos dataset ya separados, cardiac-training y cardiac-scoring , nos centraremos en el training, que es donde podremos evaluar nuestro modelo ya que es el que presenta variable objetivo.
 
-Predictores:
+### Predictores:
 
 - Estado_civil:
 
@@ -48,7 +48,7 @@ valor entre 0 y 100 indicativo del nivel natural de estrés de cada persona y de
 
 Este atributo existe solamente en el dataset de entrenamiento. Es la variable objetivo o de predicción (“label” en RM). En el dataset de entrenamiento, este atributo contiene “SI” para aquellos individuos que han sufrido un segundo ataque al corazón, y “no” en caso contrario.
 
-Modelo:
+#### Modelo:
 
 Dado el problema, queremos predecir una variable binomial, Si = en caso de que vaya a sufrir un segundo paro cardiaco; NO = en caso contrario. Decidimos optar por un modelo de Regresión Logística.
 
@@ -56,7 +56,7 @@ Preparación de datos:
 
 Este modelo requiere que todos los predictores sean numéricos, no necesitamos convertirlos. Solo los normalizamos.
 
-Resultados:
+##### Resultados:
 
 Una vez entrenado el modelo usando cardiac-training podemos ver los coeficientes para c/u de los predictores:
 ![Texto alternativo](coeficientes.png "coeficientes")
